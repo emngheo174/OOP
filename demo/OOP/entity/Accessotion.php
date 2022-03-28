@@ -7,4 +7,4 @@ class Accessotion
         $this->name = $name;
     }
 }
- 
+?> 

@@ -11,5 +11,18 @@ class Product
         $this->name = $name;
         $this->categoryId = $categoryId;
     }
-}
+    public function getId()
+    {
+        return $this->id;
+    }
 
+    public function getName()
+    {
+        return $this->name;
+    }
+    public function setId(int $id)
+    {
+        $this->id = $id;
+    }
+}
+?> 

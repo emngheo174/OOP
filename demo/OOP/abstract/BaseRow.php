@@ -10,30 +10,19 @@ abstract class Baserow extends IEntity{
        $this->id = $id;
        $this->name = $name;
     }
-    /**
-     * Get Id by Row
-     * @return void
-     */
+
     public function getId()
     {
         return $this->id;
     }
-    /**
-     * Get Name by Row
-     * @return int
-     */
+
     public function getName()
     {
         return $this->name;
     }
 
-    /**
-     * Set Id for Row
-     * @return void
-     */
     protected function setId(int $id)
     {
         $this->id = $id;
     }
-    
 }

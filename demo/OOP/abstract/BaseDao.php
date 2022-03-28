@@ -7,15 +7,9 @@
 
     abstract class BaseDao extends IDao{
         protected $database;
-
         public function __construct(){
             $this -> database = Database::getInstants();
         }
-        /**
-        * Get name table from param row
-        * @param $row
-         * @return string
-        */
         public function getTableName(object $row){
             return strlen(get_class($row)).'Table';
         }

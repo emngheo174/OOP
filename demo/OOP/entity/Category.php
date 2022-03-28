@@ -1,5 +1,5 @@
 <?php
-class Accessotion
+class Category
 {
     public function __construct(int $id, string $name)
     {
@@ -7,4 +7,4 @@ class Accessotion
         $this->name = $name;
     }
 }
- 
+?> 

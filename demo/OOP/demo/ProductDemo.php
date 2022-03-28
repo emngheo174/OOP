@@ -16,4 +16,4 @@ class ProductDemo extends Product
 }
 $create = new ProductDemo(1,'nam',2);
 print_r($create -> printProduct($create));
-
+?>
