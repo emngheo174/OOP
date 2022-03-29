@@ -72,7 +72,7 @@ public function __construct(){
     {
         for($i = 1; $i<=10 ; $i++)
         {
-            $product = new Product($i, 'IPHONE '.$i, 2);
+            $product = new Product($i, 'Điện thoại '.$i, 2);
             $this->insert($product);
 
             $category = new Category($i, 'Danh mục '.$i);
