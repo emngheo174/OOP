@@ -2,6 +2,7 @@
 interface IDao{
     /**
      * Insert row to Table
+     * 
      * @param object $row
      * @return void
      */
@@ -9,6 +10,7 @@ interface IDao{
 
     /**
      * Update row to Table
+     * 
      * @param object $row
      * @return void
      */
@@ -16,6 +18,7 @@ interface IDao{
 
     /**
      * Delete row from Table
+     * 
      * @param object $row
      * @return void
      */
@@ -23,6 +26,7 @@ interface IDao{
 
     /**
      * Find all row from Table
+     * 
      * @param object $row
      * @return void
      */

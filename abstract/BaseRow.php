@@ -1,7 +1,7 @@
 <?php
     require_once('./../interface/IEntity.php');
 
-abstract class Baserow extends IEntity{
+abstract class BaseRow extends IEntity{
     protected $id;
     protected $name;
 
@@ -12,6 +12,7 @@ abstract class Baserow extends IEntity{
     }
     /**
      * Get Id by Row
+     * 
      * @return void
      */
     public function getId()
@@ -20,6 +21,7 @@ abstract class Baserow extends IEntity{
     }
     /**
      * Get Name by Row
+     * 
      * @return int
      */
     public function getName()
@@ -29,6 +31,7 @@ abstract class Baserow extends IEntity{
 
     /**
      * Set Id for Row
+     * 
      * @return void
      */
     protected function setId(int $id)
